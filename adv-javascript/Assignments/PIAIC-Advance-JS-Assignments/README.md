@@ -17,6 +17,7 @@ PIAIC Advance JavaScript Assignments
 5.  [DOM](DOM/README.md)
 6.  [EVENTS](EVENTS/README.md)
 7.  [Object](Object/README.md)
+8.  [Closures](Closures/README.md)
 
 <!-- 8. [](/README.md) -->
 
