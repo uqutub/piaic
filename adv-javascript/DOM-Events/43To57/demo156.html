@@ -1,0 +1,33 @@
+<html>
+<head>
+
+</head>
+<body>
+    <!-- 
+     Chapter 49
+     Reading field values
+    -->
+    <form onsubmit="checkAddress();">
+        Email:
+        <input type="text" id="email">
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+<script>
+    function checkAddress(){
+       var ele = document.getElementById('email');
+       console.log(ele);
+       alert(ele.value);
+    }
+</script>
+
+
+
+
+
+
+
+
+
+</html>

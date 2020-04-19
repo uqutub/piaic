@@ -1,0 +1,50 @@
+<html>
+<head>
+   
+</head>
+<body>
+    <!-- 
+     Chapter 62
+    The DOM: More ways to target elements
+    -->
+    
+    <div id="cal">
+        <p>Southern Cal is sunny.</p>
+        <p>Northern Cal is rainy.</p>
+        <p>Eastern Cal is desert.</p>
+    </div>
+    <div id="ny">
+        <p>Urban NY is crowded.</p>
+        <p>Rural NY is sparse.</p>
+    </div>
+    
+</body>
+<script>
+    
+    var ele1 = document.childNodes[0].childNodes[2];
+    console.log(ele1);
+
+    var ele2 = document.childNodes[0].childNodes[2].childNodes[3];
+    console.log(ele2);
+
+    var firstChildNodeOfDiv = ele2.childNodes[0];
+    console.log(firstChildNodeOfDiv);
+
+    var firstChildNodeOfDiv1 = ele2.firstChild;
+    console.log(firstChildNodeOfDiv1);
+
+
+    var lastChildNodeOfDiv = ele2.lastChild;
+    console.log(lastChildNodeOfDiv);
+
+
+    var parentNodeOfDiv = ele2.parentNode;
+    console.log(parentNodeOfDiv);
+
+
+
+
+</script>
+
+
+</html>
