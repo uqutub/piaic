@@ -1,0 +1,95 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>Login Form</legend>
+        <div>
+            <input type="text" name="email" id="email" placeholder="email" onblur="onBlurHandler('email')" onfocus="onFocusHandler('email')"/>
+            <input type="password" name="password" id="pwd" placeholder="password" onblur="onBlurHandler('pwd')" onfocus="onFocusHandler('pwd')"/>
+        </div>
+        <div>
+            <span id="error" style="color: red;"></span>
+        </div>
+        <div>
+            <input type="submit" value="login" id="login_button" onclick="loginHandler(this)" />
+            <input type="submit" value="Event Listener" id="login_listner" />
+        </div>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Todo Form</legend>
+        <div>
+            <input type="text" name="todo" id="todo" placeholder="todo" />
+        </div>
+        <div>
+            <input type="submit" value="Add Toto" id="login_button" onclick="addtodoHandler()" />
+        </div>
+    </fieldset>
+
+    <div>
+        <h3>Todo List</h3>
+        <ul id="todolist">
+            <li id="id-todo-1">Dummy Todo
+                <button onclick="edit(this)">Edit</button>
+                <button onclick="delete('id-todo-1')">Del</button>
+            </li>
+        </ul>
+    </div>
+
+
+    <!--
+    <a href="#" onClick="alert('Hi');">Click</a>
+    -->
+    <script>
+
+        var btn = document.querySelector('#login_listner');
+        btn.addEventListener('click', function() {
+            console.log('Buttton Event Lisyner Clicked.....');
+        })
+
+        function resetLoginForm() {
+            var uname = document.querySelector('#email');
+            var pwd = document.querySelector('#pwd');
+            uname.value = '';
+            pwd.value = '';
+        }
+
+        function loginHandler(e) {
+            console.log('eeee', e)
+            var uname = document.querySelector('#email').value;
+            var pwd = document.querySelector('#pwd').value;
+            if (uname == 'admin' && pwd == 'admin') {
+                console.log('Welcome to Dashboard');
+                resetLoginForm();
+            } else {
+                document.querySelector('#error').innerHTML = '<h1>Id and Passowrd not match, pls try again</h1>'
+            }
+        }
+
+        function onBlurHandler(id) {
+            console.log('On Blur', id);
+        }
+
+        function onFocusHandler(id) {
+            console.log('On Foucs', id);
+            document.querySelector('#error').innerHTML = '';
+        }
+
+        function addtodoHandler() {
+            
+        }
+
+        function edit(e) {
+            console.log('eeee', e)
+        }
+
+    </script>
+</body>
+
+</html>

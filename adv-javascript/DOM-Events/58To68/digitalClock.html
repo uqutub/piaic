@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+</head>
+
+<body>
+    <div id="clock"></div>
+
+    <script>
+        var _ref = setInterval(function () {
+            console.log('calling setInterval');
+            var d_clock = document.querySelector('#clock');
+            d_clock.innerHTML = new Date()
+        }, 1000);
+
+        setTimeout(() => {
+            console.log('stoppping setInterval');
+            clearInterval(_ref);
+        }, 5000);
+
+        // clearTimeout()  // for stopping setTimeout
+
+    </script>
+</body>
+
+</html>
