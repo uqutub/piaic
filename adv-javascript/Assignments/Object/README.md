@@ -2,6 +2,14 @@
 
 A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object. Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation:
 
+
+
+```Practical Code Examples using JavaScript```
+
+[Examples](index.js)
+
+
+
 #### Assignment
 
 * Create a form through JS DOM
