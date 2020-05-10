@@ -11,3 +11,8 @@
 // All spec-compatible promises define a .then() method which you use to pass handlers which can take the resolved or rejected value.
 const wait = time => new Promise((resolve) => setTimeout(resolve, time));
 wait(3000).then(() => console.log('Hello!')); // 'Hello!'
+
+// Syntax
+// new Promise((reslove, reject)=> {
+
+// })

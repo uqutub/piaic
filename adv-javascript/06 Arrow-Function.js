@@ -6,15 +6,25 @@
  * https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/
 */
 
+// Syntax Fat Arrow Function
+// () => {
+// }
+
 // ES5
+function multiplyES5(x, y) {
+    return x * y;
+};
+// OR
 var multiplyES5 = function (x, y) {
     return x * y;
 };
+multiplyES5(1,2);
 
 // ES6
-const multiplyES6 = (x, y) => { return x * y };
+var multiplyES6 = (x, y) => { return x * y };
 // OR
-const multiplyES6 = (x, y) => x * y;
+var multiplyES6 = (x, y) => x * y;
+multiplyES5(1,2);
 
 
 // Basic Syntax with One Parameter

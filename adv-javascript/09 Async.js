@@ -8,6 +8,10 @@ function resolveAfter2Seconds() {
     });
 }
 
+resolveAfter2Seconds().then((a) => console.log('aaa', a))
+
+// OR
+
 async function asyncCall() {
     console.log('calling');
     const result = await resolveAfter2Seconds();
@@ -16,3 +20,14 @@ async function asyncCall() {
 }
 
 asyncCall();
+
+
+// for(var i =0; i < 10; i++) {
+// cosole.log('iiiii ', i)
+// asyncCall();
+// }
+
+// for(var i =0; i < 10; i++) {
+// cosole.log('iiiii ', i)
+// resolveAfter2Seconds().then((a) => console.log('aaa', a))
+// }
