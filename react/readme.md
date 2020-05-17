@@ -13,3 +13,5 @@
 8. yarn start 
 OR
 8. npm start
+
+9. For Building Project:  npm run build
