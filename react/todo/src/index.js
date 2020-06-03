@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Todos from './Todos';
 // import Parent from './ParentChild';
 // import Todos from './Todos';
 // import PromiseExample from './PromiseExample';
 import * as serviceWorker from './serviceWorker';
+import { HeaderComponent, FooterComponent } from './component/index';
 
 // import abc, { sum } from './utility';
 // let resultOfSum = sum(2, 4);
@@ -17,7 +19,12 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />  
+    <Fragment>   {/* <> */}
+      <HeaderComponent />
+      <App />
+      {/* <Todos /> */}
+      <FooterComponent />
+    </Fragment> {/* </> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

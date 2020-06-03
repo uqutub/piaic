@@ -36,11 +36,11 @@ class App extends React.Component {
   render() {
     console.log('render')
     return (
-      <div className="App">
-        <h1>App Component</h1>
-        <ParentComponent />
-
-        <ParentComponent />
+      <div className="App" style={{background: "green"}}>
+        <h1 style={{marginTop: '5%'}}>App Component</h1>
+        <ParentComponent h1={"Parent Heading From App"} childHeading={"1st Child Heading"}/>
+        <ParentComponent h1={"Parent 2"} childHeading={"2ndddddddd"}/>
+        <ParentComponent h1={"Parent 3"} childHeading={"33333333333333333rd"}/>
       </div>
     )
   }

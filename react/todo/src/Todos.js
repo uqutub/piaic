@@ -75,10 +75,20 @@ class TodoFormComponent extends React.Component {
         console.log('Clicked Add Todo', task);
     }
 
+    inputChnageHandler = (event) => {
+        console.log('yahaoaooaooo', event.target.value)
+    }
+
     render() {
         return (
             <form>
-                <input type="text" id="task" name="task" placeholder="type some task" />
+                <input type="text" id="task" name="task"
+                    onChange={this.inputChnageHandler
+                        //     () => {
+                        //     console.log('yahoooo')
+                        // }
+                    }
+                    placeholder="type some task" />
                 <input type="submit" name="submit-btn" value="Add Todo" onClick={this.addTodo} />
             </form>
         )
