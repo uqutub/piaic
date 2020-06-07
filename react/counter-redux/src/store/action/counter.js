@@ -1,16 +1,17 @@
 export default class Action {
 
-    static INCREMENT = "INCREMENT"
-    static DECREMENT = "DECREMENT"
+    static INCREMENT = "INCREMENT"  // name/type
+    static DECREMENT = "DECREMENT"  // type
 
-    static increment(p) {
+    static incrementFnc(p) {
+        console.log('1 Calling Incerment Function', Action.INCREMENT)
         return {
             type: Action.INCREMENT,
-            payload: p
+            payload: p      // option  
         }
     }
 
-    static decrement(p) {
+    static decrementFnc(p) {
         return {
             type: Action.DECREMENT,
             payload: p
