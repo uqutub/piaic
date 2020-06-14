@@ -7,3 +7,6 @@ export default class Action {
     static getProfile = (payload) => ({ type: Action.GET_PROFILE, payload });
 
 }
+
+// EPIC FLOW
+// dispatch(Action) => EPIC => DISPATCH(SUCES/FAILUR) => Reducer
