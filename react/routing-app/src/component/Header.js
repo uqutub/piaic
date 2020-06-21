@@ -18,6 +18,9 @@ export default function Header() {
                     <li>
                         <Link to="/Topics">Topics</Link>
                     </li>
+                    <li>
+                        <Link to="/dashboard">Dashboard / Protected</Link>
+                    </li>
                 </ul>
             </nav>
         </div>
