@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
-        <div>
+        <div style={{ background: "yellow", color: "white" }}>
             <nav>
                 <ul>
                     <li>
+                        {/* <a href="/">Home</a> */}
                         <Link to="/">Home</Link>
                     </li>
                     <li>
@@ -16,7 +17,7 @@ export default function Header() {
                         <Link to="/users">Users</Link>
                     </li>
                     <li>
-                        <Link to="/Topics">Topics</Link>
+                        <Link to="/products">Topics</Link>
                     </li>
                     <li>
                         <Link to="/dashboard">Dashboard / Protected</Link>

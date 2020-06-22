@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {
     Switch,
     Route,
@@ -16,10 +16,10 @@ export default function Topics() {
 
             <ul>
                 <li>
-                    <Link to={`${match.url}/react`}>React</Link>
+                    <Link to={`${match.url}/product1`}>Pro-1</Link>
                 </li>
                 <li>
-                    <Link to={`${match.url}/redux`}>Redux </Link>
+                    <Link to={`${match.url}/product2`}>Pro-2 </Link>
                 </li>
             </ul>
 
@@ -38,8 +38,23 @@ export default function Topics() {
 
 function Topic() {
     let { topicId } = useParams();
+    const [isAvailable, setIsAvailable] = useState(false);
+
+    useEffect(() => {
+        // console.log('ID has changed ', topicId);
+        console.log('Getting Data from API against', topicId);
+        setIsAvailable(products.indexOf(topicId) >= 0);
+    }, [topicId])
+
+    const products = ['pen', 'product1', 'product2'];
+
     return <div style={{background: 'yellow'}}>
-        <h3>Topic Component</h3>
-        <h4>Requested topic ID: {topicId}</h4>
+        <h3>Product Page Component {topicId}</h3>
+        {
+          isAvailable ?   
+            <h4>Product ID: {topicId}</h4> : 
+            <h4 style={{color: 'red'}}>Product Not Found OR Error</h4>
+        }
+        
     </div>;
 }

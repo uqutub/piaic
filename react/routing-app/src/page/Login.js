@@ -16,6 +16,10 @@ export default function LoginPage() {
     return (
         <div>
             <p>You must log in to view the page at {from.pathname}</p>
+            <form>
+                <input type="text" placeholder="email-id" autoComplete="new-password" />
+                <input type="password" placeholder="password" autoComplete="new-password" />
+            </form>
             <button onClick={login}>Log in</button>
         </div>
     );

@@ -5,10 +5,13 @@ import {
     Redirect
 } from "react-router-dom";
 import { Home, About, Users, Topics, Dashboard, Login } from './page';
-import { fakeAuth } from './service/auth';
+import { fakeAuth } from './service/auth';  // utility
 
 
 function PrivateRoute({ children, ...rest }) {
+
+    // user reducer and its properties
+    // useSelector  auth.isAuthenicated
     return (
         <Route
             {...rest}
@@ -40,7 +43,7 @@ export default function AppRouter() {
             <Route path="/users">
                 <Users />
             </Route>
-            <Route path="/topics">
+            <Route path="/products">
                 <Topics />
             </Route>
             <PrivateRoute path="/dashboard">
