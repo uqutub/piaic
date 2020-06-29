@@ -1,0 +1,1568 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5f7ace351492fa910b9876ad21aa799f",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "64fb587662aca8c3dff5a02fd73211a3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aa29f9b35cd99abb76427933b9ef36a1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8db2d6cf068df7c9318215a7ae3045fc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "078b47342dfd0ea80ed174d3808b974a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8416def59ab1a67dcf11e13f2448fa11",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4b3c7f924e3f8967b41e066671f96113",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "403ec809ec04f72d4cbed9cde106882c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-catch-links": {
+      "resolve": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby-plugin-catch-links",
+      "id": "Plugin gatsby-plugin-catch-links",
+      "name": "gatsby-plugin-catch-links",
+      "version": "1.0.19",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby-plugin-catch-links",
+      "packageJson": {
+        "name": "gatsby-plugin-catch-links",
+        "description": "Intercepts local links from markdown and other non-react pages and does a client-side pushState to avoid the browser having to refresh the page.",
+        "version": "1.0.19",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3918d052df7fecea9df2623ce0deb6c6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.29",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages",
+        "name": "pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.29",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e6f63f58cf72f3e79d1e688be7a2277e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.39",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.39",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d8f6fb3f562a8095ba8917dfc06ee3ce",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "06ee2128f17e8fe2cef97d36eec61ba0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.247"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.40"
+          },
+          {
+            "name": "gatsby-plugin-catch-links",
+            "version": "^1.0.19"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.10"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.29"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.39"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.11.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8a2ab12f326cf5f9b16630ec0299ab1e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "My First Gatsby Dev",
+        "test": "Hello World"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2020-06-28T14:55:59.803Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bcf52d281e1f3d489d0b4ef320d06610",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages absPath of file": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0800ea6ce40b1f5c2b150ccd340391fd",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 352,
+      "prettySize": "352 B",
+      "modifiedTime": "2020-06-28T07:32:16.437Z",
+      "accessTime": "2020-06-28T07:32:16.478Z",
+      "changeTime": "2020-06-28T07:32:16.437Z",
+      "birthTime": "2020-06-28T07:32:16.431Z",
+      "root": "/",
+      "dir": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 11,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4340752669,
+      "blocks": 0,
+      "atimeMs": 1593329536477.5632,
+      "mtimeMs": 1593329536436.525,
+      "ctimeMs": 1593329536436.525,
+      "birthtimeMs": 1593329536431.1775,
+      "atime": "2020-06-28T07:32:16.478Z",
+      "mtime": "2020-06-28T07:32:16.437Z",
+      "ctime": "2020-06-28T07:32:16.437Z",
+      "birthtime": "2020-06-28T07:32:16.431Z"
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-09-post-one absPath of file": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-09-post-one absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e59502082b4b313d9cba1a37c7fa1b5e",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-09-post-one",
+      "relativePath": "2018-04-09-post-one",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2020-06-28T07:32:16.431Z",
+      "accessTime": "2020-06-28T07:32:16.478Z",
+      "changeTime": "2020-06-28T07:32:16.431Z",
+      "birthTime": "2020-06-28T07:32:16.431Z",
+      "root": "/",
+      "dir": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages",
+      "base": "2018-04-09-post-one",
+      "ext": "",
+      "name": "2018-04-09-post-one",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4340752670,
+      "blocks": 0,
+      "atimeMs": 1593329536477.5862,
+      "mtimeMs": 1593329536431.3574,
+      "ctimeMs": 1593329536431.3574,
+      "birthtimeMs": 1593329536431.2632,
+      "atime": "2020-06-28T07:32:16.478Z",
+      "mtime": "2020-06-28T07:32:16.431Z",
+      "ctime": "2020-06-28T07:32:16.431Z",
+      "birthtime": "2020-06-28T07:32:16.431Z"
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-10-post-two absPath of file": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-10-post-two absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "37dd2635c543daedf0794017012a5993",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-10-post-two",
+      "relativePath": "2018-04-10-post-two",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2020-06-28T07:32:16.432Z",
+      "accessTime": "2020-06-28T07:32:16.478Z",
+      "changeTime": "2020-06-28T07:32:16.432Z",
+      "birthTime": "2020-06-28T07:32:16.432Z",
+      "root": "/",
+      "dir": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages",
+      "base": "2018-04-10-post-two",
+      "ext": "",
+      "name": "2018-04-10-post-two",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4340752672,
+      "blocks": 0,
+      "atimeMs": 1593329536477.5977,
+      "mtimeMs": 1593329536432.2031,
+      "ctimeMs": 1593329536432.2031,
+      "birthtimeMs": 1593329536431.8823,
+      "atime": "2020-06-28T07:32:16.478Z",
+      "mtime": "2020-06-28T07:32:16.432Z",
+      "ctime": "2020-06-28T07:32:16.432Z",
+      "birthtime": "2020-06-28T07:32:16.432Z"
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-11-post-three absPath of file": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-11-post-three absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a0c651be2beb2078bc4585fd88855513",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-11-post-three",
+      "relativePath": "2018-04-11-post-three",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2020-06-28T07:32:16.433Z",
+      "accessTime": "2020-06-28T07:32:16.478Z",
+      "changeTime": "2020-06-28T07:32:16.433Z",
+      "birthTime": "2020-06-28T07:32:16.433Z",
+      "root": "/",
+      "dir": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages",
+      "base": "2018-04-11-post-three",
+      "ext": "",
+      "name": "2018-04-11-post-three",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4340752674,
+      "blocks": 0,
+      "atimeMs": 1593329536477.598,
+      "mtimeMs": 1593329536432.8342,
+      "ctimeMs": 1593329536432.8342,
+      "birthtimeMs": 1593329536432.7175,
+      "atime": "2020-06-28T07:32:16.478Z",
+      "mtime": "2020-06-28T07:32:16.433Z",
+      "ctime": "2020-06-28T07:32:16.433Z",
+      "birthtime": "2020-06-28T07:32:16.433Z"
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/404.js absPath of file": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/404.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8d50d9a7e3f04ddcc5ff8d43b6effe79",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/404.js",
+      "relativePath": "404.js",
+      "extension": "js",
+      "size": 198,
+      "prettySize": "198 B",
+      "modifiedTime": "2020-06-28T07:32:16.434Z",
+      "accessTime": "2020-06-28T07:36:02.483Z",
+      "changeTime": "2020-06-28T07:32:16.434Z",
+      "birthTime": "2020-06-28T07:32:16.433Z",
+      "root": "/",
+      "dir": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4340752676,
+      "blocks": 8,
+      "atimeMs": 1593329762482.7305,
+      "mtimeMs": 1593329536433.6367,
+      "ctimeMs": 1593329536433.6367,
+      "birthtimeMs": 1593329536433.2483,
+      "atime": "2020-06-28T07:36:02.483Z",
+      "mtime": "2020-06-28T07:32:16.434Z",
+      "ctime": "2020-06-28T07:32:16.434Z",
+      "birthtime": "2020-06-28T07:32:16.433Z"
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/blog.js absPath of file": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/blog.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bad3c7a6a122df8f412b2ec09a9880c5",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/blog.js",
+      "relativePath": "blog.js",
+      "extension": "js",
+      "size": 840,
+      "prettySize": "840 B",
+      "modifiedTime": "2020-06-28T07:32:16.435Z",
+      "accessTime": "2020-06-28T07:32:17.774Z",
+      "changeTime": "2020-06-28T07:32:16.435Z",
+      "birthTime": "2020-06-28T07:32:16.434Z",
+      "root": "/",
+      "dir": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages",
+      "base": "blog.js",
+      "ext": ".js",
+      "name": "blog",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4340752678,
+      "blocks": 8,
+      "atimeMs": 1593329537773.9429,
+      "mtimeMs": 1593329536434.87,
+      "ctimeMs": 1593329536434.87,
+      "birthtimeMs": 1593329536434.4258,
+      "atime": "2020-06-28T07:32:17.774Z",
+      "mtime": "2020-06-28T07:32:16.435Z",
+      "ctime": "2020-06-28T07:32:16.435Z",
+      "birthtime": "2020-06-28T07:32:16.434Z"
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/index.js absPath of file": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "81f45e3b6d46ce485cd03c662589550e",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 225,
+      "prettySize": "225 B",
+      "modifiedTime": "2020-06-28T07:32:16.435Z",
+      "accessTime": "2020-06-28T07:36:02.483Z",
+      "changeTime": "2020-06-28T07:32:16.435Z",
+      "birthTime": "2020-06-28T07:32:16.435Z",
+      "root": "/",
+      "dir": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4340752679,
+      "blocks": 8,
+      "atimeMs": 1593329762482.7595,
+      "mtimeMs": 1593329536435.35,
+      "ctimeMs": 1593329536435.35,
+      "birthtimeMs": 1593329536435.0789,
+      "atime": "2020-06-28T07:36:02.483Z",
+      "mtime": "2020-06-28T07:32:16.435Z",
+      "ctime": "2020-06-28T07:32:16.435Z",
+      "birthtime": "2020-06-28T07:32:16.435Z"
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/about.js absPath of file": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/about.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "570949044e4b84f9efb0d74ed2f0ad93",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/about.js",
+      "relativePath": "about.js",
+      "extension": "js",
+      "size": 469,
+      "prettySize": "469 B",
+      "modifiedTime": "2020-06-28T07:32:16.434Z",
+      "accessTime": "2020-06-28T07:32:17.908Z",
+      "changeTime": "2020-06-28T07:32:16.434Z",
+      "birthTime": "2020-06-28T07:32:16.434Z",
+      "root": "/",
+      "dir": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages",
+      "base": "about.js",
+      "ext": ".js",
+      "name": "about",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4340752677,
+      "blocks": 8,
+      "atimeMs": 1593329537908.0635,
+      "mtimeMs": 1593329536434.213,
+      "ctimeMs": 1593329536434.213,
+      "birthtimeMs": 1593329536433.816,
+      "atime": "2020-06-28T07:32:17.908Z",
+      "mtime": "2020-06-28T07:32:16.434Z",
+      "ctime": "2020-06-28T07:32:16.434Z",
+      "birthtime": "2020-06-28T07:32:16.434Z"
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/page-2.js absPath of file": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/page-2.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "eda91bb7e277753793f385583265fbf5",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/page-2.js",
+      "relativePath": "page-2.js",
+      "extension": "js",
+      "size": 245,
+      "prettySize": "245 B",
+      "modifiedTime": "2020-06-28T07:32:16.436Z",
+      "accessTime": "2020-06-28T07:32:18.033Z",
+      "changeTime": "2020-06-28T07:32:16.436Z",
+      "birthTime": "2020-06-28T07:32:16.436Z",
+      "root": "/",
+      "dir": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages",
+      "base": "page-2.js",
+      "ext": ".js",
+      "name": "page-2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4340752680,
+      "blocks": 8,
+      "atimeMs": 1593329538032.9175,
+      "mtimeMs": 1593329536435.8584,
+      "ctimeMs": 1593329536435.8584,
+      "birthtimeMs": 1593329536435.5154,
+      "atime": "2020-06-28T07:32:18.033Z",
+      "mtime": "2020-06-28T07:32:16.436Z",
+      "ctime": "2020-06-28T07:32:16.436Z",
+      "birthtime": "2020-06-28T07:32:16.436Z"
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/services.js absPath of file": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/services.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8408f6dd8a84925a22e8c0a6c6b85b1a",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/services.js",
+      "relativePath": "services.js",
+      "extension": "js",
+      "size": 828,
+      "prettySize": "828 B",
+      "modifiedTime": "2020-06-28T07:32:16.437Z",
+      "accessTime": "2020-06-28T07:32:18.028Z",
+      "changeTime": "2020-06-28T07:32:16.437Z",
+      "birthTime": "2020-06-28T07:32:16.436Z",
+      "root": "/",
+      "dir": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages",
+      "base": "services.js",
+      "ext": ".js",
+      "name": "services",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4340752681,
+      "blocks": 8,
+      "atimeMs": 1593329538027.5442,
+      "mtimeMs": 1593329536436.9077,
+      "ctimeMs": 1593329536436.9077,
+      "birthtimeMs": 1593329536436.4893,
+      "atime": "2020-06-28T07:32:18.028Z",
+      "mtime": "2020-06-28T07:32:16.437Z",
+      "ctime": "2020-06-28T07:32:16.437Z",
+      "birthtime": "2020-06-28T07:32:16.436Z"
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-10-post-two/index.md absPath of file": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-10-post-two/index.md absPath of file",
+      "children": [
+        "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-10-post-two/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "59c45009a8a14a24eda767723e50c538",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-10-post-two/index.md",
+      "relativePath": "2018-04-10-post-two/index.md",
+      "extension": "md",
+      "size": 129,
+      "prettySize": "129 B",
+      "modifiedTime": "2020-06-28T07:32:16.433Z",
+      "accessTime": "2020-06-28T07:32:18.065Z",
+      "changeTime": "2020-06-28T07:32:16.433Z",
+      "birthTime": "2020-06-28T07:32:16.432Z",
+      "root": "/",
+      "dir": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-10-post-two",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2018-04-10-post-two",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4340752673,
+      "blocks": 8,
+      "atimeMs": 1593329538064.697,
+      "mtimeMs": 1593329536432.5574,
+      "ctimeMs": 1593329536432.5574,
+      "birthtimeMs": 1593329536432.1914,
+      "atime": "2020-06-28T07:32:18.065Z",
+      "mtime": "2020-06-28T07:32:16.433Z",
+      "ctime": "2020-06-28T07:32:16.433Z",
+      "birthtime": "2020-06-28T07:32:16.432Z"
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-09-post-one/index.md absPath of file": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-09-post-one/index.md absPath of file",
+      "children": [
+        "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-09-post-one/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3aba2450ff32f321bbf581d6b2911588",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-09-post-one/index.md",
+      "relativePath": "2018-04-09-post-one/index.md",
+      "extension": "md",
+      "size": 133,
+      "prettySize": "133 B",
+      "modifiedTime": "2020-06-28T14:55:28.994Z",
+      "accessTime": "2020-06-28T07:32:18.075Z",
+      "changeTime": "2020-06-28T14:55:28.994Z",
+      "birthTime": "2020-06-28T07:32:16.431Z",
+      "root": "/",
+      "dir": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-09-post-one",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2018-04-09-post-one",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4340752671,
+      "blocks": 8,
+      "atimeMs": 1593329538074.9998,
+      "mtimeMs": 1593356128993.7659,
+      "ctimeMs": 1593356128993.7659,
+      "birthtimeMs": 1593329536431.3474,
+      "atime": "2020-06-28T07:32:18.075Z",
+      "mtime": "2020-06-28T14:55:28.994Z",
+      "ctime": "2020-06-28T14:55:28.994Z",
+      "birthtime": "2020-06-28T07:32:16.431Z"
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-11-post-three/index.md absPath of file": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-11-post-three/index.md absPath of file",
+      "children": [
+        "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-11-post-three/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "284b8d6588afbfc40d60b59190faf1d2",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-11-post-three/index.md",
+      "relativePath": "2018-04-11-post-three/index.md",
+      "extension": "md",
+      "size": 129,
+      "prettySize": "129 B",
+      "modifiedTime": "2020-06-28T07:32:16.433Z",
+      "accessTime": "2020-06-28T07:32:17.807Z",
+      "changeTime": "2020-06-28T07:32:16.433Z",
+      "birthTime": "2020-06-28T07:32:16.433Z",
+      "root": "/",
+      "dir": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-11-post-three",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "2018-04-11-post-three",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4340752675,
+      "blocks": 8,
+      "atimeMs": 1593329537807.02,
+      "mtimeMs": 1593329536433.1025,
+      "ctimeMs": 1593329536433.1025,
+      "birthtimeMs": 1593329536432.8271,
+      "atime": "2020-06-28T07:32:17.807Z",
+      "mtime": "2020-06-28T07:32:16.433Z",
+      "ctime": "2020-06-28T07:32:16.433Z",
+      "birthtime": "2020-06-28T07:32:16.433Z"
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-10-post-two/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-10-post-two/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-10-post-two/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/post-two\"\ndate: \"2018-04-10\"\ntitle: \"My Second Gatsby Post\"\nauthor: \"John Doe\"\n---\n\nThis is my second post in Gatsby\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "a46201e1093e1ab79de27dbd8f592dd1",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "My Second Gatsby Post",
+        "path": "/post-two",
+        "date": "2018-04-10",
+        "author": "John Doe",
+        "_PARENT": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-10-post-two/index.md absPath of file",
+        "parent": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-10-post-two/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-10-post-two/index.md"
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-11-post-three/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-11-post-three/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-11-post-three/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/post-three\"\ndate: \"2018-04-11\"\ntitle: \"My Third Gatsby Post\"\nauthor: \"John Doe\"\n---\n\nThis is my third post in Gatsby\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "463bd5ea85b85a84021c870b80dbfe20",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "My Third Gatsby Post",
+        "path": "/post-three",
+        "date": "2018-04-11",
+        "author": "John Doe",
+        "_PARENT": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-11-post-three/index.md absPath of file",
+        "parent": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-11-post-three/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-11-post-three/index.md"
+    },
+    "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-09-post-one/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-09-post-one/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-09-post-one/index.md absPath of file",
+      "internal": {
+        "content": "---\npath: \"/post-one\"\ndate: \"2018-04-09\"\ntitle: \"My First Gatsby Post\"\nauthor: \"Brad Traversy 1234\"\n---\n\nHello worlkd porst 12346567\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "f13697a1d93b1b3a2d0ffdf6e24a6538",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "My First Gatsby Post",
+        "path": "/post-one",
+        "date": "2018-04-09",
+        "author": "Brad Traversy 1234",
+        "_PARENT": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-09-post-one/index.md absPath of file",
+        "parent": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-09-post-one/index.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-09-post-one/index.md"
+    },
+    "SitePage /post-two": {
+      "layout": "index",
+      "jsonName": "post-two.json",
+      "internalComponentName": "ComponentPostTwo",
+      "path": "/post-two",
+      "component": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/templates/blog-post.js",
+      "id": "SitePage /post-two",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "69628f6c3cb61cd277408e17a2903b21",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /post-three": {
+      "layout": "index",
+      "jsonName": "post-three.json",
+      "internalComponentName": "ComponentPostThree",
+      "path": "/post-three",
+      "component": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/templates/blog-post.js",
+      "id": "SitePage /post-three",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ee4df2e77661b6b881e438a783e0daf1",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /post-one": {
+      "layout": "index",
+      "jsonName": "post-one.json",
+      "internalComponentName": "ComponentPostOne",
+      "path": "/post-one",
+      "component": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/templates/blog-post.js",
+      "id": "SitePage /post-one",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fbdab8e076d7cb43dcae10d172368166",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5d26587c5099d35c90bc66c749deea8a",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "483895450c65d6bc2522f2e9ae395901",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/": {
+      "layout": "index",
+      "jsonName": "blog.json",
+      "internalComponentName": "ComponentBlog",
+      "path": "/blog/",
+      "component": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/blog.js",
+      "componentChunkName": "component---src-pages-blog-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/blog.js",
+      "id": "SitePage /blog/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c69c4e1f3c9ec1c5867558460b29100c",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e19912634eb4b8904a77e492d94fda20",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "layout": "index",
+      "jsonName": "page-2.json",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "db1cf55221cb39c2ec910dff88d78e11",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /services/": {
+      "layout": "index",
+      "jsonName": "services.json",
+      "internalComponentName": "ComponentServices",
+      "path": "/services/",
+      "component": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/services.js",
+      "componentChunkName": "component---src-pages-services-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/services.js",
+      "id": "SitePage /services/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6cb34d71596d3c749f8b451155c7d6f6",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c55871fc704a99efa3305aa692bb65c0",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "b96646ea3808ffc2f9e3e421fc270242"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-11-post-three/index.md absPath of file >>> MarkdownRemark": [
+        "/post-three"
+      ],
+      "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-09-post-one/index.md absPath of file >>> MarkdownRemark": [
+        "/post-one"
+      ],
+      "/Users/Uqutub/Documents/CLASSES/PIAIC/2020/gatsby/hello-world/src/pages/2018-04-10-post-two/index.md absPath of file >>> MarkdownRemark": [
+        "/post-two"
+      ],
+      "Site": [
+        "LAYOUT___index"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ],
+      "MarkdownRemark": [
+        "/blog/"
+      ]
+    }
+  }
+}
