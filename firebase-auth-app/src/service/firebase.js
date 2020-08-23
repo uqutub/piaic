@@ -4,13 +4,13 @@ import 'firebase/database';
 // import "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "XXX",
-    authDomain: "XXX",
-    databaseURL: "XXX",
-    projectId: "XXX",
-    storageBucket: "XXX",
-    messagingSenderId: "XXX",
-    appId: "XXXX"
+    apiKey: "XXXX",
+    authDomain: "xxxxx",
+    databaseURL: "xxx",
+    projectId: "xxx",
+    storageBucket: "xxxx",
+    messagingSenderId: "xxxx",
+    appId: "xxxxxx"
 };
 
 class Firebase {

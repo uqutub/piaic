@@ -9,12 +9,13 @@ export const SignUp = () => {
     const [displayName, setDisplayName] = useState("");
     const [error, setError] = useState(null);
     const [loader, setLoader] = useState(false);
+
     const createUserWithEmailAndPasswordHandler = async (event, email, password) => {
         event.preventDefault();
         setLoader(true);
         try {
             const { user } = await Firebase.doCreateUserWithEmailAndPassword(email, password);
-            generateUserDocument(user, { displayName });
+            generateUserDocument(user, { displayName, age: 40 });
             setEmail("");
             setPassword("");
             setDisplayName("");
@@ -22,7 +23,8 @@ export const SignUp = () => {
         }
         catch (error) {
             setLoader(false);
-            setError('Error Signing up with email and password', error);
+            setError(error.message);
+            console.error('Error: ', error)
         }
     };
     const onChangeHandler = event => {

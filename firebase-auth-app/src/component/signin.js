@@ -7,6 +7,7 @@ const SignIn = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState(null);
+    
     const signInWithEmailAndPasswordHandler =
         async (event, email, password) => {
             event.preventDefault();
@@ -16,8 +17,8 @@ const SignIn = () => {
                 console.log('objjjj', obj);
                 history.replace('/home');
             } catch (error) {
-                setError("Error signing in with password and email!");
-                console.error("Error signing in with password and email", error);
+                setError(error.message);
+                console.error("Error: ", error);
             }
         };
 

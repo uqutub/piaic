@@ -28,8 +28,8 @@ export const Todo = () => {
 
     const todoAddListner = () => {
         todoRef.on('value', (snapshot) => {
-            // console.log('snapshot ', snapshot.val());
-            setTodos(Object.values(snapshot.val()))
+            // console.log('snapshot ', snapshot.val()); 
+            snapshot.val() && setTodos(Object.values(snapshot.val()))
         });
     }
 
@@ -41,10 +41,17 @@ export const Todo = () => {
 
     const addTodo = async (ev) => {
         ev.preventDefault();
+
+        // todoRef.push({ todo, status: false, key })
+
+
         const { key } = todoRef.push();
 
+        // multi path update?? (bluk update :) )
         var updates = {};
         updates['/todos/' + uid + '/' + key] = { todo, status: false, key };
+        updates['/count/todos/' + uid] = ++todos.length;
+
 
         Firebase.db.ref().update(updates);
 
@@ -64,7 +71,7 @@ export const Todo = () => {
             <ul>
                 {
                     todos.map(t => <li key={t.key}>
-                        {t.todo}
+                        <span style={{ color: t.status ? 'green' : '#585858' }}>{t.todo}</span>
                         {" "}
                         <button>Delete</button>
                     </li>)
