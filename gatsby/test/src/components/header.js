@@ -40,3 +40,26 @@ Header.defaultProps = {
 }
 
 export default Header
+
+
+function Foo(props) {
+  return(
+    <div>
+      <h1>Hello Foo</h1>
+      {props.children}
+    </div>
+  ) 
+}
+
+function Bar(props) {
+  return(
+    <div>
+      <h1>Hello Bar</h1>
+      <Foo>
+        Hello World 
+        <h2>Inside the fooooooooo</h2>
+      </Foo>
+    </div>
+  ) 
+}
+

@@ -2,6 +2,8 @@ const dotenv = require('dotenv');
 
 if (process.env.NODE !== 'production') {
   dotenv.config();
+
+  console.log('process.env ...', process.env)
 }
 
 module.exports = {
