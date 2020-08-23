@@ -7,10 +7,10 @@ import {
     useHistory
 } from "react-router-dom";
 
-import { SignIn, SignUp, Home } from '../component';
+import { SignIn, SignUp, Home, Chat } from '../component';
 import { Firebase } from '../service';
 
-export default function App() {
+export default function AppRouter() {
 
     const signOutHandler = (ev) => {
         ev.preventDefault();
@@ -32,6 +32,9 @@ export default function App() {
                             <Link to="/home">Home</Link>
                         </li>
                         <li>
+                            <Link to="/chat">Chat</Link>
+                        </li>
+                        <li>
                             <button onClick={signOutHandler}>SignOut/Logout</button>
                         </li>
                     </ul>
@@ -43,6 +46,9 @@ export default function App() {
                     </Route>
                     <Route path="/home">
                         <Home />
+                    </Route>
+                    <Route path="/chat">
+                        <Chat />
                     </Route>
                     <Route path="/">
                         <SignIn />

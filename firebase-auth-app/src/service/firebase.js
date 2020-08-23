@@ -4,13 +4,13 @@ import 'firebase/database';
 // import "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "XXXX",
-    authDomain: "xxxxx",
+    apiKey: "xxxx",
+    authDomain: "xxx",
     databaseURL: "xxx",
-    projectId: "xxx",
-    storageBucket: "xxxx",
-    messagingSenderId: "xxxx",
-    appId: "xxxxxx"
+    projectId: "xx",
+    storageBucket: "xx",
+    messagingSenderId: "xx",
+    appId: "xxxx"
 };
 
 class Firebase {
@@ -26,6 +26,7 @@ class Firebase {
 
         this.auth = app.auth();
         this.db = app.database();
+        // this.firestore = app.firestore();
 
         /* Social Sign In Method Provider */
 
@@ -100,6 +101,8 @@ class Firebase {
 
     users = () => this.db.ref('users');
 
+    chatRef = (chatId) => this.db.ref(`chat/${chatId}`);
+
     // *** Todo API ***
 
     todos = uid => this.db.ref(`todos/${uid}`);
@@ -109,4 +112,5 @@ export default new Firebase();
 
 // firebase.initializeApp(firebaseConfig);
 // export const auth = firebase.auth();
+// export const db = firebase.database();
 // export const firestore = firebase.firestore();
