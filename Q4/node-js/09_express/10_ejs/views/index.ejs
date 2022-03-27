@@ -1,0 +1,49 @@
+<% include ../views/partials/header %>
+
+  <div class="container">
+
+    <h1> <%= title %> </h1>
+
+
+    <div>
+      <form action="/addTodo" method="POST" >
+       <input type="text" name="task">
+        <input type="submit" value="Submit / Add">
+      </form>
+    </div>
+
+    <h3>Todo Array</h3>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>
+                <i class="fa fa-map-marker"></i> ID
+              </th>
+              <th>Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% todos.forEach(function(item){ %>
+              <tr>
+                <td>
+                  <a href="/todo/<%= item.id %>">
+                    <%= item.id %>
+                  </a>
+                </td>
+                <td>
+                  <%= item.name %>
+                </td>
+              </tr>
+              <% }) %>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+
+
+
+    
+    <% include ../views/partials/footer %>
