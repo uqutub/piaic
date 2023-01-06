@@ -3,11 +3,11 @@
   "description": "Gatsby default starter",
   "version": "1.0.0",
   "dependencies": {
-    "gatsby": "^1.9.247",
+    "gatsby": "^5.3.3",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-catch-links": "^1.0.19",
     "gatsby-plugin-react-helmet": "^2.0.10",
-    "gatsby-source-filesystem": "^1.5.29",
+    "gatsby-source-filesystem": "^5.3.1",
     "gatsby-transformer-remark": "^1.7.39",
     "react-helmet": "^5.2.0"
   },
